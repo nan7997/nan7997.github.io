@@ -152,6 +152,70 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-初学jsp" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/11/03/初学jsp/">初学jsp</a>
+    </h1>
+  
+
+        
+        <a href="/2019/11/03/初学jsp/" class="archive-article-date">
+  	<time datetime="2019-11-03T06:16:48.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-03</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>#<br>jsp<br>一：首先配置tomcat<br>1:打开Eclipse，单击“window”菜单，选择下方的“Preferences”<br>2:找到Server下方的Runtime Environment，单击右方的Add按钮<br>3:选择已经成功安装的Tomcat版本，单击Next:<br>4:选择安装目录即可<br> 二“创建一个jsp文件<br> 点击file下的Dynanic web Project<br>   创建一个项目<br>   找到WebContent 文件夹，新建 jsp文件<br>  在body中输入内容，右键 run as 选择tomcat运行<br> 三：创建控制器<br> 找到Java resources 文件夹 中的src文件夹，新建 servlet，创建包名、类名<br> 然后重写doget方法 用快捷键<br>  response.getWriter().print(“你好 世界”);<br>  如果想让文字不是乱码 加入<br>response.setContentType(“text/heml;charset=utf-8”);<br>  2：如果是创建的class文件 还要在WEB-INF下的lib的web.xml中 添加<br>    <servlet><br>    <description></description><br>    <servlet-name>servlet</servlet-name> 两个的名字可以随意起，但是一定要相同<br>    <servlet-class>com.aaa.bbb.servlet</servlet-class>对应servlet路径从src开始<br>  </servlet><br>  <servlet-mapping><br>    <servlet-name>servlet</servlet-name><br>    <url-pattern>/servlet</url-pattern>自己设置的访问路径 一定要以\开头<br>  </servlet-mapping></p>
+<p>设置在工作环境的编码格式<br> winows-&gt;preferences-&gt;work-&gt;utf-8<br>设置jsp文件的编码格式<br>winows-&gt;preferences-&gt;jsp file-&gt;utf-8<br>设置请求的编码格式<br>post<br>设置响应的编码格式<br>response.setContentType(“text/heml;charset=utf-8”);</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/11/03/初学jsp/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-第五章" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     

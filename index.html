@@ -152,6 +152,56 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-url连接数据库" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <hr>
+<p>title: url连接数据库<br>date: 2019-11-11 17:20:43<br>tags:<br>—#   使用url连接数据库<br>  启动驱动 数据库用户名和密码<br> private static String driverClassName=”com.mysql.cj.jdbc.Driver”;<br>   private String url = “jdbc:mysql://127.0.0.1:3306/student?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone=Asia/Shanghai”;<br>  private String user=”root”;<br>  private String passwod=”123456”;<br>1 加载驱动   class.forname(driverClassName)<br>2 获取链接      Connection conn=null     conn=….<br>3 编写sql语句   PreparedStatement ps =null;  String sql=…<br>4 获取陈述对象    ResultSet rs=null        ps=…..<br>5 执行sql语句，获得结果   rs=…<br>6 释放结果集   *<em>!null  *</em>.close();<br>7 释放陈述对象<br>8 释放连接<br>  编码格式  req.setCharacterEncoding(“utf-8”);<br>     resp.setContentType(“text/html;charset=utf-8”);</p>
+<p>1 转发 ：url不发生改变，post请求跳转的页面，刷新以后会提示重新提交表单，效率高<br>2 重定向： url会发生改变，post请求跳转的页面，刷新以后不会提示重新提交表单，效率低</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/11/11/url连接数据库/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-初学jsp" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     

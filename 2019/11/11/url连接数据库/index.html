@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>初学jsp | Hexo</title>
+  <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="#jsp一：首先配置tomcat1:打开Eclipse，单击“window”菜单，选择下方的“Preferences”2:找到Server下方的Runtime Environment，单击右方的Add按钮3:选择已经成功安装的Tomcat版本，单击Next:4:选择安装目录即可 二“创建一个jsp文件 点击file下的Dynanic web Project   创建一个项目   找到WebCont">
+  <meta name="description" content="title: url连接数据库date: 2019-11-11 17:20:43tags:—#   使用url连接数据库  启动驱动 数据库用户名和密码 private static String driverClassName=”com.mysql.cj.jdbc.Driver”;   private String url = “jdbc:mysql://127.0.0.1:3306/stud">
 <meta property="og:type" content="article">
-<meta property="og:title" content="初学jsp">
-<meta property="og:url" content="http://yoursite.com/2019/11/03/初学jsp/index.html">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/2019/11/11/url连接数据库/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="#jsp一：首先配置tomcat1:打开Eclipse，单击“window”菜单，选择下方的“Preferences”2:找到Server下方的Runtime Environment，单击右方的Add按钮3:选择已经成功安装的Tomcat版本，单击Next:4:选择安装目录即可 二“创建一个jsp文件 点击file下的Dynanic web Project   创建一个项目   找到WebCont">
+<meta property="og:description" content="title: url连接数据库date: 2019-11-11 17:20:43tags:—#   使用url连接数据库  启动驱动 数据库用户名和密码 private static String driverClassName=”com.mysql.cj.jdbc.Driver”;   private String url = “jdbc:mysql://127.0.0.1:3306/stud">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-11-03T06:17:43.866Z">
+<meta property="og:updated_time" content="2019-11-11T09:21:14.411Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="初学jsp">
-<meta name="twitter:description" content="#jsp一：首先配置tomcat1:打开Eclipse，单击“window”菜单，选择下方的“Preferences”2:找到Server下方的Runtime Environment，单击右方的Add按钮3:选择已经成功安装的Tomcat版本，单击Next:4:选择安装目录即可 二“创建一个jsp文件 点击file下的Dynanic web Project   创建一个项目   找到WebCont">
+<meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="title: url连接数据库date: 2019-11-11 17:20:43tags:—#   使用url连接数据库  启动驱动 数据库用户名和密码 private static String driverClassName=”com.mysql.cj.jdbc.Driver”;   private String url = “jdbc:mysql://127.0.0.1:3306/stud">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -154,28 +154,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-初学jsp" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-url连接数据库" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      初学jsp
-    </h1>
-  
-
-        
-        <a href="/2019/11/03/初学jsp/" class="archive-article-date">
-  	<time datetime="2019-11-03T06:16:48.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-03</time>
-</a>
-        
-      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#<br>jsp<br>一：首先配置tomcat<br>1:打开Eclipse，单击“window”菜单，选择下方的“Preferences”<br>2:找到Server下方的Runtime Environment，单击右方的Add按钮<br>3:选择已经成功安装的Tomcat版本，单击Next:<br>4:选择安装目录即可<br> 二“创建一个jsp文件<br> 点击file下的Dynanic web Project<br>   创建一个项目<br>   找到WebContent 文件夹，新建 jsp文件<br>  在body中输入内容，右键 run as 选择tomcat运行<br> 三：创建控制器<br> 找到Java resources 文件夹 中的src文件夹，新建 servlet，创建包名、类名<br> 然后重写doget方法 用快捷键<br>  response.getWriter().print(“你好 世界”);<br>  如果想让文字不是乱码 加入<br>response.setContentType(“text/heml;charset=utf-8”);<br>  2：如果是创建的class文件 还要在WEB-INF下的lib的web.xml中 添加<br>    <servlet><br>    <description></description><br>    <servlet-name>servlet</servlet-name> 两个的名字可以随意起，但是一定要相同<br>    <servlet-class>com.aaa.bbb.servlet</servlet-class>对应servlet路径从src开始<br>  </servlet><br>  <servlet-mapping><br>    <servlet-name>servlet</servlet-name><br>    <url-pattern>/servlet</url-pattern>自己设置的访问路径 一定要以\开头<br>  </servlet-mapping></p>
-<p>设置在工作环境的编码格式<br> winows-&gt;preferences-&gt;work-&gt;utf-8<br>设置jsp文件的编码格式<br>winows-&gt;preferences-&gt;jsp file-&gt;utf-8<br>设置请求的编码格式<br>post<br>设置响应的编码格式<br>response.setContentType(“text/heml;charset=utf-8”);</p>
+        <hr>
+<p>title: url连接数据库<br>date: 2019-11-11 17:20:43<br>tags:<br>—#   使用url连接数据库<br>  启动驱动 数据库用户名和密码<br> private static String driverClassName=”com.mysql.cj.jdbc.Driver”;<br>   private String url = “jdbc:mysql://127.0.0.1:3306/student?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone=Asia/Shanghai”;<br>  private String user=”root”;<br>  private String passwod=”123456”;<br>1 加载驱动   class.forname(driverClassName)<br>2 获取链接      Connection conn=null     conn=….<br>3 编写sql语句   PreparedStatement ps =null;  String sql=…<br>4 获取陈述对象    ResultSet rs=null        ps=…..<br>5 执行sql语句，获得结果   rs=…<br>6 释放结果集   *<em>!null  *</em>.close();<br>7 释放陈述对象<br>8 释放连接<br>  编码格式  req.setCharacterEncoding(“utf-8”);<br>     resp.setContentType(“text/html;charset=utf-8”);</p>
+<p>1 转发 ：url不发生改变，post请求跳转的页面，刷新以后会提示重新提交表单，效率高<br>2 重定向： url会发生改变，post请求跳转的页面，刷新以后不会提示重新提交表单，效率低</p>
 
       
 
@@ -255,7 +241,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/11/03/初学jsp/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/11/11/url连接数据库/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -269,18 +255,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/11/11/url连接数据库/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          (no title)
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/10/22/第五章/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">第五章</div>
+    <a href="/2019/11/03/初学jsp/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">初学jsp</div>
       <i class="icon-circle-right"></i>
     </a>
   

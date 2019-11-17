@@ -152,6 +152,72 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-过滤器" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/11/17/过滤器/">*****过滤器</a>
+    </h1>
+  
+
+        
+        <a href="/2019/11/17/过滤器/" class="archive-article-date">
+  	<time datetime="2019-11-17T11:53:34.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-17</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>#<br>9大内置对象<br>pageContext 只在当前页面响应<br>request 一次请求！！<br>session  ！！<br>application 应用</p>
+<p>config<br>exception 异常<br>response  响应<br>page<br>out<br>4大域对象<br>el表达式的4个域范围<br>pageContext Scope<br>requestScope<br>sessionScope<br>application Scope</p>
+<p>el表达式语法<br>&amp;{requestScope.属性key}<br>&lt;%@ prefix=”c” uri=”…………core”%&gt;<br>jsp 标签的使用fireach遍历循环集合<br> 1 在jsp头部引入标签库<br>&lt;%@ taglib prefix=”c” uri=”…..”%&gt;<br> 2 &lt;c:forEach var=”变量名” iteams=”集合” varStatus=”遍历状态名”<br>   begin=”begin” end=”end” step=”step”&gt;</p>
+<p>过滤器filder 3个方法<br> 1 public void init()<br> 2 public void doFilder(ServletRequest request,ServletResponse response,FilterChain chain)  完成过滤操作 通过FilterChain让请求向下传递。<br> 3 public void destroy() 过程销毁时使用，只会调用一此</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/11/17/过滤器/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-url连接数据库" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
